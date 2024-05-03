@@ -1,0 +1,32 @@
+/* selektor typu */
+div {
+    margin: 40px;
+    text-align: center;
+}
+
+/* selektor triedy */
+.table1 {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.button1 {
+    background-color: black; 
+    color: red; 
+    border: 2px solid red;
+    height: 60px;
+    width: 200px;
+}
+  
+.button1:hover {
+    background-color: red; 
+    color: black; 
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+.foot {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
